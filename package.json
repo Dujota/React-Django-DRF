@@ -16,5 +16,9 @@
   "bugs": {
     "url": "https://github.com/Dujota/React-Django-DRF/issues"
   },
-  "homepage": "https://github.com/Dujota/React-Django-DRF#readme"
+  "homepage": "https://github.com/Dujota/React-Django-DRF#readme",
+  "devDependencies": {
+    "webpack": "^4.39.2",
+    "webpack-cli": "^3.3.7"
+  }
 }
