@@ -4,7 +4,7 @@ from leads.models import Lead
 # Lead Serializer - rest_framework docs -> serializers
 
 
-class LeadSerializer(searializers.ModelSerializer):
+class LeadSerializer(serializers.ModelSerializer):
     class Meta:
         model = Lead
         fields = '__all__'
