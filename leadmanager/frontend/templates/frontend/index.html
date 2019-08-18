@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Lead Manager - Django React DRF</title>
+</head>
+
+<body>
+
+  <!-- REACT APP MOUNTING POINT -->
+  <div id="react-app"></div>
+
+  <!-- Any other static files that Django wants to load into the template  -->
+  {% load static %}
+
+  <!-- This will load our Webpack Build once we generate the main.js file ** SEE WEBPACK CONFIG & PCKG.JSON ^,^ ** -->
+  <script src="{% static "frontend/main.js" %}"></script>
+</body>
+
+</html>
