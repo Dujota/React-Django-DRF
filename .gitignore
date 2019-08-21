@@ -91,3 +91,4 @@ db.sqlite3
 
 ### JAVASCRIPT & FRONTEND ###
 node_modules
+leadmanager/frontend/static/frontend
