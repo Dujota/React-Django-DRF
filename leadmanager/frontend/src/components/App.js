@@ -1,14 +1,24 @@
 import React, { Component, Fragment } from 'react';
 import ReactDOM from 'react-dom';
+import PropTypes from 'prop-types';
 
+// Components
 import Header from './layout/Header';
+import DashBoard from './leads/Dashboard';
 
 export default class App extends Component {
+  // PropTypes
+  static propTypes = {};
+
+  static defaultProps = {};
+
   render() {
     return (
       <Fragment>
         <Header />
-        <h1>Django React - App Component</h1>
+        <div className="container">
+          <DashBoard />
+        </div>
       </Fragment>
     );
   }
