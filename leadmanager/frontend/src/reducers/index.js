@@ -1,3 +1,4 @@
 import { combineReducers } from 'redux';
+import leadsReducer from './leadsReducer';
 
-export default combineReducers({ replaceMe: 'replaceME' });
+export default combineReducers({ leads: leadsReducer });
