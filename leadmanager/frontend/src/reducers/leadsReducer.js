@@ -1,7 +1,7 @@
 // Pull in the action type
 import { GET_LEADS } from '../actions/types.js';
 
-//
+// Set up some Initial state
 const initalState = {
   leads: [],
 };
